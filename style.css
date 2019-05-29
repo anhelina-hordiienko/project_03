@@ -1,0 +1,402 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	min-width: 655px;
+}
+
+body * {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.font-50 {
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+.font-30 {
+	font-size: 30px;
+	line-height: 1.2;
+}
+
+.font-35 {
+	font-size: 35px;
+	color: rgb(34, 38, 38);
+	line-height: 0.686;
+}
+
+.font-14 {
+	font-size: 14px;
+	color: rgb(149, 149, 149);
+	line-height: 1.714;
+}
+
+.font-13 {
+	font-size: 13px;
+	line-height: 1.846;
+}
+
+.font-11 {
+	font-size: 11px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2;
+	text-align: center;
+}
+
+.black_text {
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.cf:before,
+.cf:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+}
+.cf:after {
+		clear: both;
+}
+.cf {
+		*zoom: 1;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*Block1 Landscape*/
+#landscape {
+	background-image: url("img/landscape.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 10%;
+	color: white;
+}
+
+.landscape_text {
+	width: 45%;
+	/*width: 42%;*/
+	margin-top: 40%;
+	margin-bottom: 40%;
+}
+
+/*/Block1 Landscape*/
+
+/*/Block2 Details*/
+.iphone {
+	position: absolute;
+	top: -670px;
+	right: 8%;
+}
+#Block2 {
+	background-color: white;
+	padding: 7% 10%;
+	position: relative;
+}
+
+#something_new>div {
+	width: 47%;
+}
+
+#something_new .right {
+	margin-top: 180px;
+}
+
+#Block2 .blocks-wrapper {
+	color: white;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.blocks-wrapper .block {
+	width: 33.33%;
+	min-width: 235px;
+	padding: 1% 2% 5% 2%;
+	position: relative;
+}
+
+.block.big_picture {
+	width: 66.66%;
+	min-width: 470px;
+	padding: 1% 2% 5% 2%;
+}
+
+.pink {
+	background-color: rgb(245, 152, 157);
+}
+
+.blue {
+	background-color: rgb(97, 95, 125);
+}
+
+.clients {
+	background-image: url("img/clients.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.green {
+	background-color: rgb(130, 202, 156);
+}
+
+.big_picture {
+	background-image: url("img/sign up.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.big_picture p {
+	width: 65%;
+}
+
+.block a {
+	color: rgb(255, 255, 255);
+	background-size: contain;
+}
+
+.fa-heart-btn:before {
+	content: "\f08a";
+}
+
+.fa-heart-btn:hover:before{
+	content: "\f004";
+}
+
+.fa-heart-btn {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.title {
+	color: rgb(103, 103, 109);
+}
+
+#details .block {
+	width: 25%;
+	padding: 2% 2% 2% 0;
+	margin-bottom: 5%;
+}
+
+/*/Block2 Details*/
+
+/*Block3 Power*/
+#Block3 {
+	background-image: url("img/auto.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30% 10% 5% 10%;
+	color: white;
+}
+
+#Block3 p {
+	width: 450px;
+}
+
+#Block3 a {
+	color: white;
+}
+/*/Block3 Power*/
+
+/*Block4 Reasons to get onboard*/
+#Block4 {
+	background-color: rgb(130, 202, 156);
+	padding: 7% 10%;
+}
+
+#Block4 * {
+	color: white;
+}
+
+#Block4 .block {
+	width: 33.33%;
+	padding-right: 3%;
+}
+/*Block4 Reasons to get onboard*/
+
+/*Block5 business proposal*/
+#Block5 {
+	background-color: rgb(246, 247, 250);
+	padding: 7% 10%;
+}
+
+#Block5 .font-30 {
+	font-size: 30px;
+	color: rgb(46, 59, 78);
+	line-height: 1;
+}
+
+#Block5 .font-14 {
+	font-size: 14px;
+	color: rgb(130, 151, 167);
+	line-height: 1.786;
+}
+
+#Block5 .block {
+	width: 48%;
+	padding: 3%;
+	margin-right: 4%;
+	margin-bottom: 40px;
+}
+
+#Block5>div:last-child {
+	margin-right: 0;
+}
+
+#Block5 .block a:first-child {
+	display: inline-block;
+	padding: 3px 15px;
+	border-radius: 5px;
+	border: none; 
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#Block5 .block2 a:first-child {
+	background-color: rgb(189, 140, 191);
+}
+
+#Block5 .block a:first-child:hover {
+	opacity: 0.5;
+	color: black;
+}
+
+#Block5 a {
+	margin-right: 15px;
+}
+
+button {
+	border: none; 
+	cursor: pointer;
+	border-radius: 3px;
+	background-color: rgb(130, 202, 156);
+	width: 151px;
+	height: 47px;
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.69;
+	text-align: center;
+	margin: 15px 0 30px 0;
+}
+
+button:hover {
+	opacity: 0.5
+}
+
+#Block5 .fa {
+	color: rgb(197, 197, 197);
+}
+
+#Block5 .fa:hover {
+	color: rgb(0, 0, 0);
+}
+
+#Block5 .block2 {
+	box-shadow: 0 0 70px rgb(152,152,152) ;
+}
+/*Block5 business proposal*/
+
+/*Block6 Footer*/
+#Footer {
+	background-color: rgb(25, 36, 49);
+	padding: 7% 10%;
+	color: white;
+}
+
+#Footer .font-14 {
+	color: white;
+}
+
+.get_in_touch {
+	width: 48%;
+	margin-right: 4%;
+	padding: 3%;
+	margin-bottom: 40px;
+}
+
+.stay_in_touch {
+	width: 48%;
+	padding: 3%;
+	margin-bottom: 40px;
+}
+
+input {
+	border: none;
+	height: 50px;
+}
+
+input[type="submit"] {
+	background-color: rgb(130, 202, 156);
+	background-image: url(img/tick.png);
+	background-height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 20%;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+
+input[type="email"] {
+	width: 80%;
+}
+
+#Footer .font-12 {
+	font-size: 12px;
+	color: rgb(87, 105, 127);
+	line-height: 1.5;
+}
+
+div.small-group {
+	width: 33.33%;
+	min-width: 120px;
+	padding: 2%;
+	padding-left: 0;
+}
+
+.small-group a {
+	font-size: 13px;
+	line-height: 1.846;
+	display: block;
+}
+
+.small-group p {
+	margin-bottom: 25px;
+}
+
+.references {
+	width: 48%;
+	min-width: 412px;
+	padding: 3%;
+	margin-right: 4%;
+	margin-bottom: 30px;
+}
+
+.socials {
+	width: 48%;
+	min-width: 331px;
+	margin-bottom: 30px;
+	padding: 3%;
+	text-align: center;
+}
+
+.socials a {
+	padding-right: 15px;
+}
+/*Block6 Footer*/
